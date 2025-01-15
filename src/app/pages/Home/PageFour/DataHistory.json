@@ -1,0 +1,74 @@
+{
+    "history": [
+      {
+        "id": 1,
+        "year": "2021",
+        "childrenYears": [
+          {
+            "id": 1,
+            "title": "Rebrand the Company name to Maxius",
+            "type": "1st Pan-Governmental Information Resource Integration HW3"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "year": "2020",
+        "childrenYears": [
+          {
+            "id": 2,
+            "title": "2nd construction of AI-based adaptive security system",
+            "type": "SPC Certification: TOP 5 Rank record in the world of storage"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "year": "2019",
+        "childrenYears": [
+          {
+            "id": 3,
+            "title": "Development of Genome Analysis",
+            "type": ""
+          }
+        ]
+      }
+    ],
+    "partners": [
+      {
+        "id": 1,
+        "title": "1000 corporate Partners",
+        "description": "Cheongwadae, KHNP, Ministry of National Defense, Gunpo city, Korea Agro-Fisheries&Food Trade Corporation, JeollaNamdo, KMRB, JDC, Korea Housing Finance Corporation, Gyeonggi Provincial Police Agency, NCIS, KPIC, Supreme Court of Korea, IPET, LH, National Gugak Center, Korea Workers Compensation&Welfare Service, and more than 1,000 government entities."
+      }
+    ],
+    "patents": [
+      {
+        "id": 1,
+        "title": "High-speed data I/O semiconductor Chip",
+        "description": "FPGA/CPLD/ASIC design and manufacturing technology, possess TPU development capability"
+      },
+      {
+        "id": 2,
+        "title": "Intelligent Pattern Analysis Algorithm",
+        "description": "Hybrid Cache algorithm that follows data pattern analysis"
+      },
+      {
+        "id": 3,
+        "title": "OS and SSD optimization",
+        "description": "Device Driver optimization technology differing for each OS, storage resource"
+      }
+    ],
+    "awards": [
+      {
+        "id": 1,
+        "title": "Awarded the Sejong Award at the KR Patent Awards",
+        "description": "Received the highest domestic patent award for outstanding performance and energy-saving technology"
+      },
+      {
+        "id": 2,
+        "title": "Certified by Korea Excellent Product Designation",
+        "description": "Certification of the only excellent procurement registered product in Korea in the server field that has been recognized for its high-performance system quality"
+      }
+    ]
+  }
+  

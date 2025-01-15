@@ -1,0 +1,230 @@
+.page-two {
+    height: calc(var(--vh, 1vh) * 100);
+    background: url("http://www.maxius.io/static/media/banner-02-kr.d83fd94316a49f91c1e8.png");
+    width: 100%;
+    position: relative;
+    user-select: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+    .page-two-content {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      justify-content: center;
+      
+      .page-two-container {
+        max-width: 1324px;
+        margin: 0 10%;
+      }
+    }
+  
+    .brand_name_wr {
+      position: absolute;
+      top: 10%;
+      left: 12.5%;
+      font-size: 14px;
+      line-height: 25px;
+      .par_one {
+        line-height: 24px;
+        color: #fff;
+        cursor: text;
+        font-family: "Montserrat-Medium";
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+      }
+    }
+  
+    .text_wr {
+      display: flex;
+      flex-wrap: wrap; /* Cho phép tự động xuống dòng */
+      word-break: break-word; /* Đảm bảo văn bản không bị tràn */
+      font-size: 67px;
+      visibility: visible;
+  
+      @media (max-width: 1400px) {
+        font-size: 40px;
+      }
+      @media (max-width: 1100px) {
+        font-size: 22px;
+      }
+      @media (max-width: 600px) {
+        font-size: 24px;
+      }
+  
+      .text-inline {
+        display: inline-block;  /* Sử dụng inline-block thay vì inline */
+        margin-right: 10px;
+        white-space: normal;  /* Cho phép xuống dòng nếu cần */
+        word-break: break-word;  /* Cắt từ khi cần thiết */
+        max-width: 100%;  /* Giới hạn phần tử không vượt quá chiều rộng của phần tử chứa */
+        overflow: hidden;  /* Ẩn các phần vượt quá phần tử */
+        font-size: 30px;  /* Điều chỉnh kích thước chữ, bạn có thể thay đổi giá trị này */
+    }
+    
+    
+    
+    }
+  
+    .en {
+      font-family: "Roboto", sans-serif;
+  
+      p {
+        line-height: 1.18;
+      }
+    }
+  
+    .ko {
+      font-family: "Noto Sans KR";
+  
+      p {
+        line-height: 1.37;
+        font-family: "Noto Sans KR";
+      }
+      span {
+        font-family: "Noto Sans KR";
+      }
+    }
+  
+    .number {
+      letter-spacing: 0;
+    }
+    .note {
+      color: #ff9933;
+    }
+    .line-two {
+      letter-spacing: -1.4px;
+      @media (max-width: 687px) {
+        letter-spacing: -0.1px;
+      }
+    }
+    .line-three {
+      letter-spacing: 1.9px;
+    }
+    .line-four {
+      letter-spacing: 1px;
+    }
+    .line-five {
+      letter-spacing: -2.7px;
+      @media (max-width: 687px) {
+        letter-spacing: -1px;
+      }
+    }
+  
+    .mo1 {
+      text-align: none;
+      max-width: 100%;
+      word-break: break-all;
+      font-size: 24px;
+      visibility: visible;
+  
+      .mo {
+        display: block;
+        font-size: 24px;
+      }
+  
+      &.en {
+        max-width: 1300px;
+        width: 250px;
+        min-width: 250px;
+        letter-spacing: 0px;
+      }
+      &.ko {
+        width: 244px;
+        min-width: 244px;
+        max-width: 240px;
+        text-align: unset;
+        .text-one {
+          letter-spacing: 1px;
+        }
+        .text-two {
+          letter-spacing: 3.1px;
+        }
+        .text-three {
+          letter-spacing: 1.2px;
+        }
+        .text-four {
+          letter-spacing: 0.8px;
+        }
+        .text-five {
+          letter-spacing: 0.4px;
+        }
+      }
+  
+      &.en {
+        text-align: unset;
+  
+        p {
+          font-size: 20px;
+        }
+        .text-one {
+          letter-spacing: 0.27px;
+        }
+        .text-two {
+          letter-spacing: 0px;
+        }
+        .text-three {
+          letter-spacing: 0.18px;
+        }
+        .text-four {
+          letter-spacing: 0px;
+        }
+        .text-five {
+          letter-spacing: 0.19px;
+        }
+        .text-six {
+          letter-spacing: 0.4px;
+        }
+        .text-seven {
+          letter-spacing: 0.1px;
+        }
+        .text-eight {
+          letter-spacing: 0px;
+        }
+        .text-nine {
+          letter-spacing: 0.1px;
+        }
+        .text-ten {
+          letter-spacing: 0px;
+        }
+        .text-tenone {
+          letter-spacing: 0px;
+        }
+      }
+    }
+  
+    p {
+      white-space: pre-wrap;
+      font-weight: 700;
+      word-break: break-all;
+      transition: all 0.2s;
+      color: #fff;
+      cursor: text;
+      padding: 0;
+      margin: 0;
+      @media (max-width: 687px) {
+        .self {
+          letter-spacing: 2.2px;
+        }
+        .device {
+          letter-spacing: 0;
+        }
+        .line-two {
+          letter-spacing: -1px;
+        }
+        .ervers {
+          letter-spacing: -0.9px;
+        }
+        .device-2 {
+          letter-spacing: -0.9px;
+        }
+        .tion {
+          letter-spacing: 0px;
+        }
+      }
+    }
+  }
+  

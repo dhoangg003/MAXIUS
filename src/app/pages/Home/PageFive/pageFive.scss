@@ -1,0 +1,146 @@
+.page-five {
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .fifth-container {
+    background-image: url(http://www.maxius.io/static/media/banner-05.f607f14abcebc9afc311.png);
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+    background-size: 110vw 110vh;
+    background-position: 50% 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-repeat: no-repeat;
+    @media (max-width: 767.98px) {
+      background-size: unset;
+      background-position: unset;
+    }
+    .fifth-title {
+      position: absolute;
+      top: 10%;
+      left: 15%;
+      color: #fff;
+  
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  
+    .fifth-wrapper {
+      text-align: left;
+      width: 70%;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 15%;
+      left: 180px;
+  
+      @media (max-width: 1024px) {
+        left: 140px;
+      }
+      @media (max-width: 780px) {
+        left: 50px;
+      }
+  
+      .block-item {
+        width: 250px;
+        margin-bottom: 50px;
+  
+        h3 {
+          font-size: 34px;
+          color: white;
+          margin-bottom: 0;
+          white-space: nowrap;
+          margin-bottom: 12px;
+          margin-left: 5px;
+          font-weight: bold;
+  
+          @media screen and (max-width: 600px) {
+            font-size: 20.5px;
+            margin-left: 0;
+          }
+        }
+  
+        a {
+          color: #fff;
+          text-align: left;
+          p {
+            font-size: 14px;
+            font-family: Montserrat-ExtraLight;
+            @media screen and (max-width: 600px) {
+              font-size: 13.5px;
+              padding: 7px 0;
+            }
+          }
+        }
+  
+        .learn-more {
+          a {
+            visibility: hidden;
+            color: #8e8e8e;
+            padding: 15px 20px;
+            white-space: nowrap;
+  
+            &:hover {
+              color: white;
+            }
+          }
+        }
+  
+        .email {
+          transition: 0.2s;
+          position: relative;
+          width: 90%;
+          margin: -6px 0;
+          padding: 0 5%;
+          height: 35px;
+          line-height: 35px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #fff;
+            p {
+              color: black;
+            }
+  
+            .mail-icon {
+              opacity: 1;
+  
+              p {
+                visibility: visible;
+              }
+            }
+          }
+  
+          .mail-icon {
+            padding: 0 3px 3px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            width: 15px;
+            height: 15px;
+            opacity: 0;
+            transition: 0.3s;
+            p {
+              font-size: 20px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .fifth-container {
+      .fifth-wrapper {
+        width: 90%;
+      }
+    }
+  }
+  

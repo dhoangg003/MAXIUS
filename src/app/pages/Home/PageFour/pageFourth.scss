@@ -2,7 +2,8 @@
   padding: 100px 20px;
   background-color: #fff;
   font-family: 'Arial', sans-serif;
-
+  display: flex;
+  flex-wrap: wrap;
   .fourth-container {
     max-width: 1200px;
     margin: 0 auto;

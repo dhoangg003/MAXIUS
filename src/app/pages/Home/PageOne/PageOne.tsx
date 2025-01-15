@@ -1,6 +1,5 @@
 "use client";
 import "./pageOne.scss";
-import { useEffect } from "react";
 
 const banner = "https://tse2.mm.bing.net/th?id=OIP.gfaXwXwZXqXBU2TiXwHX8QHaEr&pid=Api&P=0&h=220"
 const PageOne = () => {

@@ -44,7 +44,7 @@ function PageThree() {
             <div className="item-content">
               <p className="title title_third">Application</p>
               <p className="desc en">
-                Maxius' miscellaneous products are used for{" "}
+                Maxius miscellaneous products are used for{" "}
                 <span className="note">AI/genetic analysis,</span>
                 <br />
                 <span className="note">edge computing, IDC centers,</span>{" "}
